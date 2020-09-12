@@ -14,9 +14,9 @@ function ordenarLista(lista){
 }
 
 //VERIFICAR DIFERENÇA ENTRE ELEMENTO POSTERIOR E ANTERIOR
-function verificaDiferencaPosteriorAnterior(lista){
-    for(var k = 0; k<lista.length-1; k++){
-        if(lista[k+1]-lista[k]!==1){ 
+function verificaDiferencaPosteriorAnterior(listaOrdenada){
+    for(var k = 0; k<listaOrdenada.length-1; k++){
+        if(listaOrdenada[k+1]-listaOrdenada[k]!==1){ 
             return true;
         }
     }
