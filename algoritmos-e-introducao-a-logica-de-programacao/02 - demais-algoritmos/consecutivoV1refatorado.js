@@ -55,4 +55,4 @@ function consecutivo(lista){
     return "> Quantidade de elementos que faltam para ser consecutivo: " + quantidadeQueFaltaParaConsecutivo(listaOrdenada) +"\n" + "> Elementos que faltam para ser consecutivo: " + elementosQueFaltam(listaOrdenada)
 }
 
-console.log(consecutivo([3,2,1,7,5,4,9,10]));
+console.log(consecutivo([5,2,9,4,22,31,27]));
